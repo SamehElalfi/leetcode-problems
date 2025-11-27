@@ -28,6 +28,11 @@
  * runningSum([1, 1, 1, 1, 1]);
  */
 function runningSum(nums) {
+    // Handle edge case: empty array (though constraints guarantee length >= 1)
+    if (!nums || nums.length === 0) {
+        return [];
+    }
+    
     // Start from index 1 since the first element's running sum is itself
     for (let i = 1; i < nums.length; i++) {
         // Add the previous running sum to the current element
@@ -54,6 +59,11 @@ function runningSum(nums) {
  * runningSumNonDestructive([3, 1, 2, 10, 1]);
  */
 function runningSumNonDestructive(nums) {
+    // Handle edge case: empty array (though constraints guarantee length >= 1)
+    if (!nums || nums.length === 0) {
+        return [];
+    }
+    
     // Initialize result array with the first element
     const result = [nums[0]];
     

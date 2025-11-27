@@ -81,8 +81,8 @@ This approach creates a new array to store the running sum without modifying the
 - [x] **Space Complexity**: O(1) space for in-place solution
 - [x] **Code Readability**: Clear variable names and structure
 - [x] **Documentation**: Code includes JSDoc comments explaining the function
-- [x] **Edge Cases**: Handles single element arrays and negative numbers
-- [x] **Input Validation**: Assumes valid input per LeetCode constraints
+- [x] **Edge Cases**: Handles single element arrays, negative numbers, and empty arrays
+- [x] **Input Validation**: Defensive checks for empty arrays added
 - [x] **Naming Conventions**: Follows JavaScript naming conventions (camelCase)
 - [x] **No Code Duplication**: DRY principle followed
 - [x] **Modular Design**: Solution is self-contained and reusable
