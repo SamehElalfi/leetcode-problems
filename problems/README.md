@@ -1,0 +1,56 @@
+# LeetCode Problems Index
+
+This directory contains solutions to various LeetCode problems, organized by problem number.
+
+## Problems List
+
+| # | Title | Difficulty | Topics | Solution | Tests |
+|---|-------|------------|--------|----------|-------|
+| 1480 | [Running Sum of 1d Array](./1480-running-sum-of-1d-array/) | Easy | Array, Prefix Sum | [Solution](./1480-running-sum-of-1d-array/solution.ts) | [Tests](./1480-running-sum-of-1d-array/solution.test.ts) |
+
+## Problem Categories
+
+### Array
+- [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
+
+### Prefix Sum
+- [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
+
+## Difficulty Distribution
+
+- **Easy:** 1
+- **Medium:** 0
+- **Hard:** 0
+
+## How to Run Tests
+
+To run tests for all problems:
+```bash
+npm test
+# or
+yarn test
+```
+
+To run tests for a specific problem:
+```bash
+npm test -- --test-name-pattern="1480"
+# or
+yarn test --test-name-pattern="1480"
+```
+
+## Contributing
+
+When adding a new problem:
+1. Create a new directory following the pattern: `[number]-[problem-name]/`
+2. Include the following files:
+   - `README.md` - Problem description, approach, and complexity analysis
+   - `solution.ts` - Implementation(s) of the solution
+   - `solution.test.ts` - Comprehensive test cases
+3. Update this index file with the new problem entry
+
+## Notes
+
+- All solutions are implemented in TypeScript
+- Each solution includes time and space complexity analysis
+- Test cases cover edge cases and various scenarios
+- Solutions prioritize readability and optimal performance
