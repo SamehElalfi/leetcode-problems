@@ -1,6 +1,6 @@
 {
   "name": "leetcode-problems",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of high-performance solutions to LeetCode algorithmic problems. This repository focuses on code readability, clean implementations, and optimal time/space complexity.",
   "main": "index.js",
   "scripts": {
