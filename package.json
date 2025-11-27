@@ -1,0 +1,24 @@
+{
+  "name": "leetcode-problems",
+  "version": "1.0.0",
+  "description": "A collection of high-performance solutions to LeetCode algorithmic problems. This repository focuses on code readability, clean implementations, and optimal time/space complexity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamehElalfi/leetcode-problems.git"
+  },
+  "keywords": [],
+  "author": "Sameh A. Elalfi <sameh.elalfi.mail@gmail.com>",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SamehElalfi/leetcode-problems/issues"
+  },
+  "homepage": "https://github.com/SamehElalfi/leetcode-problems#readme",
+  "dependencies": {
+    "tsx": "^4.20.6"
+  }
+}
