@@ -1,0 +1,31 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    },
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "nodenext",
+    "importHelpers": true,
+    "target": "ESNext",
+    "module": "nodenext",
+    "lib": ["es2022"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "typeRoots": ["./node_modules/@types"],
+  "include": ["./problems/**/*"]
+}

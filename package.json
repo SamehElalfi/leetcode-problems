@@ -4,7 +4,13 @@
   "description": "A collection of high-performance solutions to LeetCode algorithmic problems. This repository focuses on code readability, clean implementations, and optimal time/space complexity.",
   "main": "index.js",
   "scripts": {
-    "test": "node --import tsx --test"
+    "test": "node --import tsx --test",
+    "lint": "tsup ./src",
+    "prettier": "prettier . --check --ignore-path .prettierignore",
+    "prettier:fix": "prettier . --write --ignore-path .prettierignore",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "release": "standard-version && git push --follow-tags origin dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +26,13 @@
   "homepage": "https://github.com/SamehElalfi/leetcode-problems#readme",
   "dependencies": {
     "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
   }
 }
