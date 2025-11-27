@@ -63,6 +63,26 @@ This approach creates a new array to store the running sum without modifying the
 | In-Place Prefix Sum | 0 ms | 42.1 MB | 100% | 87.45% |
 | New Array | 1 ms | 42.3 MB | 78.12% | 74.23% |
 
+## Complexity Analysis
+
+### In-Place Prefix Sum Approach
+
+| Metric | Complexity | Explanation |
+|--------|------------|-------------|
+| **Time Complexity** | O(n) | We iterate through the array exactly once, where n is the length of the input array. Each element is visited and updated in constant time O(1). |
+| **Space Complexity** | O(1) | We modify the input array in-place without using any additional data structures. Only a loop counter variable is used. |
+
+### New Array Approach
+
+| Metric | Complexity | Explanation |
+|--------|------------|-------------|
+| **Time Complexity** | O(n) | We iterate through the array exactly once, where n is the length of the input array. Each element is processed in constant time O(1). |
+| **Space Complexity** | O(n) | We create a new result array of the same size as the input array to store the running sum values. |
+
+### Why O(n) is Optimal
+
+The running sum problem requires us to examine every element in the input array at least once to compute the cumulative sum. Therefore, O(n) time complexity is the theoretical lower bound, and both approaches achieve this optimal time complexity.
+
 ## Notes
 
 - The in-place approach is more memory-efficient as it doesn't require additional space
@@ -70,7 +90,7 @@ This approach creates a new array to store the running sum without modifying the
 - Edge cases to consider:
   - Single element array: returns the same array
   - Array with negative numbers: works correctly as we're just summing
-  - Large numbers: within constraints, no overflow issues in JavaScript
+  - Large numbers: within constraints, no overflow issues in TypeScript/JavaScript
 
 ---
 
@@ -80,9 +100,11 @@ This approach creates a new array to store the running sum without modifying the
 - [x] **Time Complexity**: Optimal O(n) time complexity achieved
 - [x] **Space Complexity**: O(1) space for in-place solution
 - [x] **Code Readability**: Clear variable names and structure
-- [x] **Documentation**: Code includes JSDoc comments explaining the function
+- [x] **Documentation**: Code includes TSDoc comments explaining the function
 - [x] **Edge Cases**: Handles single element arrays, negative numbers, and empty arrays
 - [x] **Input Validation**: Defensive checks for empty arrays added
-- [x] **Naming Conventions**: Follows JavaScript naming conventions (camelCase)
+- [x] **Naming Conventions**: Follows TypeScript naming conventions (camelCase)
 - [x] **No Code Duplication**: DRY principle followed
 - [x] **Modular Design**: Solution is self-contained and reusable
+- [x] **Type Safety**: Full TypeScript type annotations
+- [x] **Test Coverage**: Comprehensive test suite using Node.js test runner
