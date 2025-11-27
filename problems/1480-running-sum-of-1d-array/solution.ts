@@ -28,18 +28,18 @@
  * runningSum([1, 1, 1, 1, 1]);
  */
 export function runningSum(nums: number[]): number[] {
-    // Handle edge case: empty array (though constraints guarantee length >= 1)
-    if (!nums || nums.length === 0) {
-        return [];
-    }
+  // Handle edge case: empty array (though constraints guarantee length >= 1)
+  if (!nums || nums.length === 0) {
+    return [];
+  }
 
-    // Start from index 1 since the first element's running sum is itself
-    for (let i = 1; i < nums.length; i++) {
-        // Add the previous running sum to the current element
-        nums[i] += nums[i - 1];
-    }
+  // Start from index 1 since the first element's running sum is itself
+  for (let i = 1; i < nums.length; i++) {
+    // Add the previous running sum to the current element
+    nums[i] += nums[i - 1];
+  }
 
-    return nums;
+  return nums;
 }
 
 /**
@@ -59,18 +59,18 @@ export function runningSum(nums: number[]): number[] {
  * runningSumNonDestructive([3, 1, 2, 10, 1]);
  */
 export function runningSumNonDestructive(nums: number[]): number[] {
-    // Handle edge case: empty array (though constraints guarantee length >= 1)
-    if (!nums || nums.length === 0) {
-        return [];
-    }
+  // Handle edge case: empty array (though constraints guarantee length >= 1)
+  if (!nums || nums.length === 0) {
+    return [];
+  }
 
-    // Initialize result array with the first element
-    const result: number[] = [nums[0]];
+  // Initialize result array with the first element
+  const result: number[] = [nums[0]];
 
-    // Build the running sum by adding current element to previous sum
-    for (let i = 1; i < nums.length; i++) {
-        result[i] = result[i - 1] + nums[i];
-    }
+  // Build the running sum by adding current element to previous sum
+  for (let i = 1; i < nums.length; i++) {
+    result[i] = result[i - 1] + nums[i];
+  }
 
-    return result;
+  return result;
 }

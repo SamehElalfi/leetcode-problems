@@ -58,26 +58,26 @@ This approach creates a new array to store the running sum without modifying the
 
 ## Solution Results
 
-| Approach | Runtime | Memory | Runtime Percentile | Memory Percentile |
-|----------|---------|--------|-------------------|-------------------|
-| In-Place Prefix Sum | 0 ms | 42.1 MB | 100% | 87.45% |
-| New Array | 1 ms | 42.3 MB | 78.12% | 74.23% |
+| Approach            | Runtime | Memory  | Runtime Percentile | Memory Percentile |
+| ------------------- | ------- | ------- | ------------------ | ----------------- |
+| In-Place Prefix Sum | 0 ms    | 42.1 MB | 100%               | 87.45%            |
+| New Array           | 1 ms    | 42.3 MB | 78.12%             | 74.23%            |
 
 ## Complexity Analysis
 
 ### In-Place Prefix Sum Approach
 
-| Metric | Complexity | Explanation |
-|--------|------------|-------------|
-| **Time Complexity** | O(n) | We iterate through the array exactly once, where n is the length of the input array. Each element is visited and updated in constant time O(1). |
-| **Space Complexity** | O(1) | We modify the input array in-place without using any additional data structures. Only a loop counter variable is used. |
+| Metric               | Complexity | Explanation                                                                                                                                     |
+| -------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time Complexity**  | O(n)       | We iterate through the array exactly once, where n is the length of the input array. Each element is visited and updated in constant time O(1). |
+| **Space Complexity** | O(1)       | We modify the input array in-place without using any additional data structures. Only a loop counter variable is used.                          |
 
 ### New Array Approach
 
-| Metric | Complexity | Explanation |
-|--------|------------|-------------|
-| **Time Complexity** | O(n) | We iterate through the array exactly once, where n is the length of the input array. Each element is processed in constant time O(1). |
-| **Space Complexity** | O(n) | We create a new result array of the same size as the input array to store the running sum values. |
+| Metric               | Complexity | Explanation                                                                                                                           |
+| -------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time Complexity**  | O(n)       | We iterate through the array exactly once, where n is the length of the input array. Each element is processed in constant time O(1). |
+| **Space Complexity** | O(n)       | We create a new result array of the same size as the input array to store the running sum values.                                     |
 
 ### Why O(n) is Optimal
 
