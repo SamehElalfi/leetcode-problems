@@ -62,7 +62,7 @@ export function addTwoNumbers(
     const sum = val1 + val2 + carry;
 
     // Update carry for next iteration (0 or 1)
-    carry = Math.floor(sum / 10);
+    carry = sum >= 10 ? 1 : 0;
 
     // Create new node with the digit (sum % 10)
     current.next = new ListNode(sum % 10);
