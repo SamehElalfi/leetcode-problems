@@ -7,6 +7,7 @@ This directory contains solutions to various LeetCode problems, organized by pro
 | # | Title | Difficulty | Topics | Solution | Tests |
 |---|-------|------------|--------|----------|-------|
 | 1 | [Two Sum](./1-two-sum/) | Easy | Array, Hash Table | [Solution](./1-two-sum/solution.ts) | [Tests](./1-two-sum/solution.test.ts) |
+| 2 | [Add Two Numbers](./2-add-two-numbers/) | Medium | Linked List, Math, Recursion | [Solution](./2-add-two-numbers/solution.ts) | [Tests](./2-add-two-numbers/solution.test.ts) |
 | 1480 | [Running Sum of 1d Array](./1480-running-sum-of-1d-array/) | Easy | Array, Prefix Sum | [Solution](./1480-running-sum-of-1d-array/solution.ts) | [Tests](./1480-running-sum-of-1d-array/solution.test.ts) |
 
 ## Problem Categories
@@ -18,13 +19,19 @@ This directory contains solutions to various LeetCode problems, organized by pro
 ### Hash Table
 - [#1 - Two Sum](./1-two-sum/)
 
+### Linked List
+- [#2 - Add Two Numbers](./2-add-two-numbers/)
+
+### Math
+- [#2 - Add Two Numbers](./2-add-two-numbers/)
+
 ### Prefix Sum
 - [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
 
 ## Difficulty Distribution
 
 - **Easy:** 2
-- **Medium:** 0
+- **Medium:** 1
 - **Hard:** 0
 
 ## How to Run Tests
