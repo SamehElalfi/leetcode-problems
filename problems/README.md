@@ -6,19 +6,24 @@ This directory contains solutions to various LeetCode problems, organized by pro
 
 | # | Title | Difficulty | Topics | Solution | Tests |
 |---|-------|------------|--------|----------|-------|
+| 1 | [Two Sum](./1-two-sum/) | Easy | Array, Hash Table | [Solution](./1-two-sum/solution.ts) | [Tests](./1-two-sum/solution.test.ts) |
 | 1480 | [Running Sum of 1d Array](./1480-running-sum-of-1d-array/) | Easy | Array, Prefix Sum | [Solution](./1480-running-sum-of-1d-array/solution.ts) | [Tests](./1480-running-sum-of-1d-array/solution.test.ts) |
 
 ## Problem Categories
 
 ### Array
+- [#1 - Two Sum](./1-two-sum/)
 - [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
+
+### Hash Table
+- [#1 - Two Sum](./1-two-sum/)
 
 ### Prefix Sum
 - [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
 
 ## Difficulty Distribution
 
-- **Easy:** 1
+- **Easy:** 2
 - **Medium:** 0
 - **Hard:** 0
 
