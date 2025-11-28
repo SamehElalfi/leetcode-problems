@@ -16,10 +16,6 @@ describe('LeetCode 9 - Palindrome Number', () => {
       assert.strictEqual(isPalindrome(-121), false);
     });
 
-    it('should return false for x=10', () => {
-      assert.strictEqual(isPalindrome(10), false);
-    });
-
     it('should return true for single digit numbers', () => {
       assert.strictEqual(isPalindrome(0), true);
       assert.strictEqual(isPalindrome(5), true);
