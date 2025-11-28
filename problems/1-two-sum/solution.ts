@@ -30,6 +30,11 @@
  * twoSum([3, 2, 4], 6);
  */
 export function twoSum(nums: number[], target: number): number[] {
+  // Handle empty array case
+  if (nums.length === 0) {
+    return [];
+  }
+
   // Map to store number -> index mapping
   const numMap = new Map<number, number>();
 
@@ -69,6 +74,11 @@ export function twoSum(nums: number[], target: number): number[] {
  * twoSumBruteForce([3, 3], 6);
  */
 export function twoSumBruteForce(nums: number[], target: number): number[] {
+  // Handle empty array case
+  if (nums.length === 0) {
+    return [];
+  }
+
   // Check all pairs using nested loops
   for (let i = 0; i < nums.length - 1; i++) {
     for (let j = i + 1; j < nums.length; j++) {

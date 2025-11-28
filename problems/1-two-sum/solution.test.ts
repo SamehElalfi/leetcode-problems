@@ -59,6 +59,13 @@ describe('LeetCode 1 - Two Sum', () => {
       const result = twoSum(nums, target);
       assert.deepStrictEqual(result, [3, 4]);
     });
+
+    it('should handle empty array', () => {
+      const nums: number[] = [];
+      const target = 0;
+      const result = twoSum(nums, target);
+      assert.deepStrictEqual(result, []);
+    });
   });
 
   describe('twoSumBruteForce (Nested Loops)', () => {
@@ -116,6 +123,13 @@ describe('LeetCode 1 - Two Sum', () => {
       const target = 9;
       const result = twoSumBruteForce(nums, target);
       assert.deepStrictEqual(result, [3, 4]);
+    });
+
+    it('should handle empty array', () => {
+      const nums: number[] = [];
+      const target = 0;
+      const result = twoSumBruteForce(nums, target);
+      assert.deepStrictEqual(result, []);
     });
   });
 });
