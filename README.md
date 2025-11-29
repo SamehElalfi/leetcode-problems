@@ -125,6 +125,8 @@ See [Problem #1480 - Running Sum of 1d Array](./problems/1480-running-sum-of-1d-
 
 This is primarily a personal learning project, but suggestions and feedback are welcome! If you notice an optimization or alternative approach, feel free to open an issue for discussion.
 
+![Alt](https://repobeats.axiom.co/api/embed/7aada8991f3bce2c2d5f498dbef34e2c0959f659.svg "Repobeats analytics image")
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
