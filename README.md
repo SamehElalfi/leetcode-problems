@@ -19,8 +19,8 @@ This repository serves as both a learning resource and a showcase of problem-sol
 
 ## Problem Statistics
 
-- **Total Problems Solved**: 4
-- **Easy**: 3 | **Medium**: 1 | **Hard**: 0
+- **Total Problems Solved**: 5
+- **Easy**: 3 | **Medium**: 2 | **Hard**: 0
 
 For a complete list of problems, see the [Problems Index](./problems/README.md).
 
