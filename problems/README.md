@@ -9,6 +9,7 @@ This directory contains solutions to various LeetCode problems, organized by pro
 | 1 | [Two Sum](./1-two-sum/) | Easy | Array, Hash Table | [Solution](./1-two-sum/solution.ts) | [Tests](./1-two-sum/solution.test.ts) |
 | 2 | [Add Two Numbers](./2-add-two-numbers/) | Medium | Linked List, Math, Recursion | [Solution](./2-add-two-numbers/solution.ts) | [Tests](./2-add-two-numbers/solution.test.ts) |
 | 3 | [Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/) | Medium | String, Hash Table, Sliding Window | [Solution](./3-longest-substring-without-repeating-characters/solution.ts) | [Tests](./3-longest-substring-without-repeating-characters/solution.test.ts) |
+| 4 | [Median of Two Sorted Arrays](./4-median-of-two-sorted-arrays/) | Hard | Array, Binary Search, Divide and Conquer | [Solution](./4-median-of-two-sorted-arrays/solution.ts) | [Tests](./4-median-of-two-sorted-arrays/solution.test.ts) |
 | 9 | [Palindrome Number](./9-palindrome-number/) | Easy | Math | [Solution](./9-palindrome-number/solution.ts) | [Tests](./9-palindrome-number/solution.test.ts) |
 | 1480 | [Running Sum of 1d Array](./1480-running-sum-of-1d-array/) | Easy | Array, Prefix Sum | [Solution](./1480-running-sum-of-1d-array/solution.ts) | [Tests](./1480-running-sum-of-1d-array/solution.test.ts) |
 
@@ -16,6 +17,7 @@ This directory contains solutions to various LeetCode problems, organized by pro
 
 ### Array
 - [#1 - Two Sum](./1-two-sum/)
+- [#4 - Median of Two Sorted Arrays](./4-median-of-two-sorted-arrays/)
 - [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
 
 ### Hash Table
@@ -32,6 +34,12 @@ This directory contains solutions to various LeetCode problems, organized by pro
 ### Prefix Sum
 - [#1480 - Running Sum of 1d Array](./1480-running-sum-of-1d-array/)
 
+### Binary Search
+- [#4 - Median of Two Sorted Arrays](./4-median-of-two-sorted-arrays/)
+
+### Divide and Conquer
+- [#4 - Median of Two Sorted Arrays](./4-median-of-two-sorted-arrays/)
+
 ### Sliding Window
 - [#3 - Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
 
@@ -42,7 +50,7 @@ This directory contains solutions to various LeetCode problems, organized by pro
 
 - **Easy:** 3
 - **Medium:** 2
-- **Hard:** 0
+- **Hard:** 1
 
 ## How to Run Tests
 
