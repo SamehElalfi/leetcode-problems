@@ -10,6 +10,7 @@ This directory contains solutions to various LeetCode problems, organized by pro
 | 2 | [Add Two Numbers](./2-add-two-numbers/) | Medium | Linked List, Math, Recursion | [Solution](./2-add-two-numbers/solution.ts) | [Tests](./2-add-two-numbers/solution.test.ts) |
 | 3 | [Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/) | Medium | String, Hash Table, Sliding Window | [Solution](./3-longest-substring-without-repeating-characters/solution.ts) | [Tests](./3-longest-substring-without-repeating-characters/solution.test.ts) |
 | 4 | [Median of Two Sorted Arrays](./4-median-of-two-sorted-arrays/) | Hard | Array, Binary Search, Divide and Conquer | [Solution](./4-median-of-two-sorted-arrays/solution.ts) | [Tests](./4-median-of-two-sorted-arrays/solution.test.ts) |
+| 5 | [Longest Palindromic Substring](./5-longest-palindromic-substring/) | Medium | String, Dynamic Programming | [Solution](./5-longest-palindromic-substring/solution.ts) | [Tests](./5-longest-palindromic-substring/solution.test.ts) |
 | 9 | [Palindrome Number](./9-palindrome-number/) | Easy | Math | [Solution](./9-palindrome-number/solution.ts) | [Tests](./9-palindrome-number/solution.test.ts) |
 | 1480 | [Running Sum of 1d Array](./1480-running-sum-of-1d-array/) | Easy | Array, Prefix Sum | [Solution](./1480-running-sum-of-1d-array/solution.ts) | [Tests](./1480-running-sum-of-1d-array/solution.test.ts) |
 
@@ -45,11 +46,15 @@ This directory contains solutions to various LeetCode problems, organized by pro
 
 ### String
 - [#3 - Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
+- [#5 - Longest Palindromic Substring](./5-longest-palindromic-substring/)
+
+### Dynamic Programming
+- [#5 - Longest Palindromic Substring](./5-longest-palindromic-substring/)
 
 ## Difficulty Distribution
 
 - **Easy:** 3
-- **Medium:** 2
+- **Medium:** 3
 - **Hard:** 1
 
 ## How to Run Tests
